@@ -1,5 +1,6 @@
 package com.cg.project.bean;
 
 public class Login {
+	
 
 }

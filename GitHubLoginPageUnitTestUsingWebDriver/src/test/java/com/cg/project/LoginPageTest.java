@@ -18,7 +18,7 @@ public class LoginPageTest{
 	
 	@BeforeClass
 	public static void setUpDriverEnv(){
-		System.setProperty("webdriver.chrome.driver", "D:\\SatishTrainingData\\TrainingsTopicsWise\\SeleniumAndWebDriver\\ChromeDriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D://chromedriver_win32//chromedriver.exe");
 		driver= new ChromeDriver();
 		driver.manage().window().maximize();
 	}

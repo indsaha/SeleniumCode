@@ -1,0 +1,17 @@
+package com.cg.project;
+
+import org.junit.Before;
+import org.openqa.selenium.support.PageFactory;
+
+import com.cg.project.beans.LoginPage;
+static WebDriver driver;
+
+public class RegisterTest {
+	@Before
+	public void setUpTestEnv() {
+		driver.get("https://github.com/");
+		RegisterPage= new RegisterPage();
+		PageFactory.initElements(driver, loginPage);
+	}
+
+}
